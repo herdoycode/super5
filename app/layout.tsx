@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
 import { Container, Theme } from "@radix-ui/themes";
-import Footer from "@/components/Footer";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +18,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Theme>
-          <Container size="1">{children}</Container>
-          <Footer />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Container size="1">{children}</Container>
+          </ThemeProvider>
         </Theme>
       </body>
     </html>

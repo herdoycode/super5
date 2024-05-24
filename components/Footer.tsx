@@ -1,12 +1,13 @@
 "use client";
 import { navItems } from "@/data";
+import { Container } from "@radix-ui/themes";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const currentPath = usePathname();
   return (
-    <div className="flex fixed bottom-0 w-full items-center justify-around h-[90px] rounded-t-3xl border">
+    <div className="flex w-full items-center justify-around rounded-t-3xl border">
       {navItems.map((item) => (
         <Link
           key={item.id}
