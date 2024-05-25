@@ -13,7 +13,7 @@ const Footer = () => {
           className={currentPath === item.path ? "text-primary" : ""}
           href={item.path}
         >
-          <div className="flex items-center justify-center flex-col text-xl">
+          <div className="flex items-center justify-center flex-col text-[24px]">
             {item.icon}
             <span className="text-[11px]"> {item.label} </span>
           </div>
