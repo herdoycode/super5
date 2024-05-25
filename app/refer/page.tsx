@@ -3,9 +3,9 @@ import { Grid } from "@radix-ui/themes";
 
 const Refer = () => {
   return (
-    <Grid rows="100px 1fr 100px" className="h-dvh">
-      <div className="bg-primary flex items-center justify-around py-8"></div>
-      <div className="overflow-auto"></div>
+    <Grid rows="80px 1fr 65px" className="h-dvh">
+      <div className="bg-primary flex items-center justify-between px-4 pt-4"></div>
+      <div className="overflow-auto pb-2"></div>
       <Footer />
     </Grid>
   );
