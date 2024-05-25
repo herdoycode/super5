@@ -48,8 +48,8 @@ const MyMatches = () => {
                   </div>
                   <Button variant="secondary">Completed</Button>
                   <div className="flex items-center gap-2">
-                    <Image src="/pan.png" width={40} height={40} alt="raj" />
                     <p className="font-semibold">PBKS</p>
+                    <Image src="/pan.png" width={40} height={40} alt="raj" />
                   </div>
                 </div>
               </div>
