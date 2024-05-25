@@ -10,12 +10,10 @@ const Footer = () => {
       {navItems.map((item) => (
         <Link
           key={item.id}
-          className={
-            currentPath === item.path ? "text-xl text-primary" : "text-xl"
-          }
+          className={currentPath === item.path ? "text-primary" : ""}
           href={item.path}
         >
-          <div className="flex items-center justify-center flex-col gap-1">
+          <div className="flex items-center justify-center flex-col">
             {item.icon}
             <span className="text-sm"> {item.label} </span>
           </div>
