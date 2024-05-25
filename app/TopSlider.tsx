@@ -29,7 +29,7 @@ const TopSlider = () => {
 
   return (
     <div>
-      <Carousel setApi={setApi} className="w-full max-w-sm px-3">
+      <Carousel setApi={setApi} className="w-full max-w-[390px] px-3">
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
@@ -44,11 +44,15 @@ const TopSlider = () => {
                     />
                   </div>
                   <div className="space-y-3">
-                    <h2 className="text-xl font-semibold text-primary">
+                    <h2 className="text-[22px] text-primary">
                       Win IPhone Free
                     </h2>
-                    <p>Join our Free contest & Predict 5 questions</p>
-                    <Button size="sm">LEARN HOW TO PLAY</Button>
+                    <p className="text-[14px]">
+                      Join our Free contest & Predict 5 questions
+                    </p>
+                    <Button size="sm" className="text-[12px]">
+                      LEARN HOW TO PLAY
+                    </Button>
                   </div>
                 </Grid>
               </div>

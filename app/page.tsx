@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <div className="px-4">
           <div className="flex items-center justify-between">
-            <h3 className="font-semibold text-xl">My Matches</h3>
+            <h3 className="font-semibold text-[20px]">My Matches</h3>
             <Link href="/" className="underline text-primary">
               View All
             </Link>
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
         <div className="px-4">
-          <h3 className="font-semibold text-xl">Upcoming Matches</h3>
+          <h3 className="font-semibold text-[20px]">Upcoming Matches</h3>
           <div className="w-full flex items-center justify-center py-6">
             <UpcomingMatch />
           </div>

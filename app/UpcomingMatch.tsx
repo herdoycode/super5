@@ -6,10 +6,13 @@ const UpcomingMatch = () => {
   return (
     <div className="space-y-6 w-full">
       {Array.from({ length: 3 }).map((_, index) => (
-        <div key={index} className="w-full border overflow-hidden rounded-2xl">
+        <div
+          key={index}
+          className="max-w-[390px] border overflow-hidden rounded-2xl"
+        >
           <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3">
-            <p>IPL-20024-T20</p>
-            <Button size="sm" className="rounded-3xl">
+            <p className="text-[14px]">IPL-20024-T20</p>
+            <Button size="sm" className="rounded-3xl text-12px text-white">
               Joined
             </Button>
           </div>
@@ -30,7 +33,9 @@ const UpcomingMatch = () => {
             </div>
           </div>
           <div className="p-2 bg-orange-100 text-center border-t">
-            <p className="uppercase font-semibold">Win Iphone Free</p>
+            <p className="uppercase text-[15px] font-semibold">
+              Win Iphone Free
+            </p>
           </div>
         </div>
       ))}

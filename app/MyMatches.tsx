@@ -29,12 +29,12 @@ const MyMatches = () => {
 
   return (
     <div>
-      <Carousel setApi={setApi} className="w-full max-w-sm px-3">
+      <Carousel setApi={setApi} className="w-full max-w-[390px] px-3">
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
               <div className="w-full border overflow-hidden rounded-2xl">
-                <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3">
+                <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3 text-[14px]">
                   <p>IPL-20024-T20</p>
                   <div className="flex items-center gap-2">
                     <Image width={20} height={20} src="/coin.png" alt="coin" />
