@@ -9,7 +9,7 @@ import UpcomingMatch from "./UpcomingMatch";
 
 const Home = () => {
   return (
-    <Grid rows="80px 1fr 65px" className="h-dvh">
+    <Grid rows="80px 1fr 65px" className="h-vh">
       <div className="bg-primary flex items-center justify-between px-4 pt-4">
         <Image src="/logo.png" width={120} height={60} alt="logo" />
         <div className="flex border items-center justify-between gap-1 rounded-3xl text-xl text-white py-1 px-2">
