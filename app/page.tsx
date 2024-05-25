@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import MyMatches from "./MyMatches";
 import UpcomingMatch from "./UpcomingMatch";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
           <span className="text-[18px]">5045</span>
         </div>
       </div>
-      <div className="overflow-auto pb-2">
+      <div className="overflow-scroll pb-2">
         <div className="w-full flex items-center justify-center pt-2">
           <TopSlider />
         </div>

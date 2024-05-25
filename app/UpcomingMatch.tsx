@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
 import { Badge } from "@radix-ui/themes";
 import Image from "next/image";
 
 const UpcomingMatch = () => {
   return (
     <div className="space-y-6 w-full">
-      {Array.from({ length: 3 }).map((_, index) => (
+      {Array.from({ length: 10 }).map((_, index) => (
         <div
           key={index}
           className="max-w-[390px] border overflow-hidden rounded-2xl"
