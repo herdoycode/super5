@@ -60,15 +60,15 @@ const TopSlider = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="py-2 text-center text-sm text-muted-foreground">
+      <div className="py-1 text-center text-sm text-muted-foreground">
         <div className="flex items-center justify-center gap-2">
           {Array.from({ length: 3 }).map((_, i) => (
             <div
               key={i}
               className={
                 i === current - 1
-                  ? "w-3 h-3 rounded-full bg-primary"
-                  : "w-3 h-3 rounded-full bg-secondary"
+                  ? "w-2 h-2 rounded-full bg-primary"
+                  : "w-2 h-2 rounded-full bg-secondary"
               }
             ></div>
           ))}
