@@ -33,7 +33,7 @@ const TopSlider = () => {
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
-              <div className="w-full border rounded-3xl h-[146px] bg-blue-100">
+              <div className="w-full border rounded-3xl h-[120px] bg-blue-100">
                 <Grid columns="2fr 3fr">
                   <div className="flex items-center justify-center">
                     <Image
@@ -43,16 +43,16 @@ const TopSlider = () => {
                       alt="iphone"
                     />
                   </div>
-                  <div className="space-y-2 pr-5 pt-1">
-                    <h2 className="text-[22px] text-primary">
+                  <div className="pr-5 space-y-1">
+                    <h2 className="text-[20px] text-primary">
                       Win IPhone Free
                     </h2>
                     <p className="text-[14px] font-semibold">
                       Join our Free contest & Predict 5 questions
                     </p>
-                    <Button size="sm" className="text-[12px] w-full">
+                    <button className="text-[11px] w-full bg-primary p-1 rounded-md text-white">
                       LEARN HOW TO PLAY
-                    </Button>
+                    </button>
                   </div>
                 </Grid>
               </div>

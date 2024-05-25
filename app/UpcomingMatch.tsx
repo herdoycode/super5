@@ -16,7 +16,7 @@ const UpcomingMatch = () => {
               Joined
             </button>
           </div>
-          <div className="flex items-center justify-between py-1 px-3">
+          <div className="flex items-center justify-between py-4 px-3">
             <div className="flex items-center gap-2">
               <Image src="/raj.png" width={40} height={40} alt="raj" />
               <p className="font-semibold">RR</p>
