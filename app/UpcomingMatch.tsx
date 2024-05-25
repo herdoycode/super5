@@ -10,9 +10,9 @@ const UpcomingMatch = () => {
           key={index}
           className="max-w-[390px] border overflow-hidden rounded-2xl"
         >
-          <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3">
-            <p className="text-[14px]">IPL-20024-T20</p>
-            <button className="rounded-3xl text-12px text-white bg-primary px-3 py-1">
+          <div className="bg-gradient-to-tr flex items-center justify-between py-2 bg-secondary px-3">
+            <p className="text-[12px] font-semibold">IPL-20024-T20</p>
+            <button className="rounded-3xl text-12px text-white bg-primary px-3 py-[2px]">
               Joined
             </button>
           </div>

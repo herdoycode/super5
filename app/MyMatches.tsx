@@ -38,7 +38,7 @@ const MyMatches = () => {
                   <p>IPL-20024-T20</p>
                   <div className="flex items-center gap-2">
                     <Image width={20} height={20} src="/coin.png" alt="coin" />
-                    <p>You Won 10 Super Coin</p>
+                    <p className="text-primary">You Won 10 Super Coin</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-between py-6 px-3">
