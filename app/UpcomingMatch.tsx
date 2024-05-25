@@ -12,11 +12,11 @@ const UpcomingMatch = () => {
         >
           <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3">
             <p className="text-[14px]">IPL-20024-T20</p>
-            <Button size="sm" className="rounded-3xl text-12px text-white">
+            <button className="rounded-3xl text-12px text-white bg-primary px-3 py-1">
               Joined
-            </Button>
+            </button>
           </div>
-          <div className="flex items-center justify-between py-6 px-3">
+          <div className="flex items-center justify-between py-3 px-3">
             <div className="flex items-center gap-2">
               <Image src="/raj.png" width={40} height={40} alt="raj" />
               <p className="font-semibold">RR</p>
@@ -32,10 +32,8 @@ const UpcomingMatch = () => {
               <p className="font-semibold">PBKS</p>
             </div>
           </div>
-          <div className="p-2 bg-orange-100 text-center border-t">
-            <p className="uppercase text-[15px] font-semibold">
-              Win Iphone Free
-            </p>
+          <div className="p-1 bg-orange-100 text-center border-t">
+            <p className="text-[15px] font-semibold">WIN iPhone FREE</p>
           </div>
         </div>
       ))}
