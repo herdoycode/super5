@@ -29,7 +29,7 @@ const TopSlider = () => {
 
   return (
     <div>
-      <Carousel setApi={setApi} className="w-full max-w-[390px] px-3">
+      <Carousel setApi={setApi} className="w-full max-w-[390px] px-4">
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
