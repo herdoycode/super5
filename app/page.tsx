@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </div>
       <div className="overflow-auto">
-        <div className="w-full flex items-center justify-center py-4">
+        <div className="w-full flex items-center justify-center pt-2">
           <TopSlider />
         </div>
         <div className="px-4">
