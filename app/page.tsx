@@ -3,6 +3,9 @@ import React from "react";
 import TopSlider from "./TopSlider";
 import { Grid } from "@radix-ui/themes";
 import Footer from "@/components/Footer";
+import Link from "next/link";
+import MyMatches from "./MyMatches";
+import UpcomingMatch from "./UpcomingMatch";
 
 const Home = () => {
   return (
@@ -19,15 +22,20 @@ const Home = () => {
           <TopSlider />
         </div>
         <div className="px-4">
-          <h3 className="font-semibold">My Matches</h3>
+          <div className="flex items-center justify-between">
+            <h3 className="font-semibold text-xl">My Matches</h3>
+            <Link href="/" className="underline text-primary">
+              View All
+            </Link>
+          </div>
           <div className="w-full flex items-center justify-center py-6">
-            <TopSlider />
+            <MyMatches />
           </div>
         </div>
         <div className="px-4">
-          <h3 className="font-semibold">Upcoming Matches</h3>
+          <h3 className="font-semibold text-xl">Upcoming Matches</h3>
           <div className="w-full flex items-center justify-center py-6">
-            <TopSlider />
+            <UpcomingMatch />
           </div>
         </div>
       </div>

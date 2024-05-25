@@ -11,7 +11,7 @@ import { Grid } from "@radix-ui/themes";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-const TopSlider = () => {
+const MyMatches = () => {
   const [api, setApi] = React.useState<CarouselApi>();
   const [current, setCurrent] = React.useState(0);
 
@@ -33,24 +33,25 @@ const TopSlider = () => {
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
-              <div className="p-4 w-full border rounded-3xl">
-                <Grid columns="2fr 3fr">
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src="/phone.png"
-                      width={80}
-                      height={80}
-                      alt="iphone"
-                    />
+              <div className="w-full border overflow-hidden rounded-2xl">
+                <div className="bg-gradient-to-tr flex items-center justify-between py-3 bg-secondary px-3">
+                  <p>IPL-20024-T20</p>
+                  <div className="flex items-center gap-2">
+                    <Image width={20} height={20} src="/coin.png" alt="coin" />
+                    <p>You Won 10 Super Coin</p>
                   </div>
-                  <div className="space-y-3">
-                    <h2 className="text-xl font-semibold text-primary">
-                      Win IPhone Free
-                    </h2>
-                    <p>Join our Free contest & Predict 5 questions</p>
-                    <Button size="sm">LEARN HOW TO PLAY</Button>
+                </div>
+                <div className="flex items-center justify-between py-6 px-3">
+                  <div className="flex items-center gap-2">
+                    <Image src="/raj.png" width={40} height={40} alt="raj" />
+                    <p className="font-semibold">RR</p>
                   </div>
-                </Grid>
+                  <Button variant="secondary">Completed</Button>
+                  <div className="flex items-center gap-2">
+                    <Image src="/pan.png" width={40} height={40} alt="raj" />
+                    <p className="font-semibold">PBKS</p>
+                  </div>
+                </div>
               </div>
             </CarouselItem>
           ))}
@@ -74,4 +75,4 @@ const TopSlider = () => {
   );
 };
 
-export default TopSlider;
+export default MyMatches;
