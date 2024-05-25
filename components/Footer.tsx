@@ -11,7 +11,7 @@ const Footer = () => {
         <Link
           key={item.id}
           className={
-            currentPath === item.path ? "text-2xl text-primary" : "text-2xl"
+            currentPath === item.path ? "text-xl text-primary" : "text-xl"
           }
           href={item.path}
         >
