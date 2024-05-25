@@ -28,7 +28,7 @@ const TopSlider = () => {
   }, [api]);
 
   return (
-    <div className="w-dvw px-3">
+    <div className="w-dvw px-4">
       <Carousel setApi={setApi}>
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
