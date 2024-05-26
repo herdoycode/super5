@@ -1,15 +1,20 @@
 import Footer from "@/components/Footer";
-import { Grid } from "@radix-ui/themes";
+import { Grid, Link } from "@radix-ui/themes";
 import { BiErrorCircle } from "react-icons/bi";
+import { IoIosArrowBack } from "react-icons/io";
 import { MdSportsHandball } from "react-icons/md";
 
 const ProfilePage = () => {
   return (
     <Grid rows="120px 1fr 65px" className="h-dvh bg-secondary">
-      <div className="relative bg-primary rounded-b-3xl flex items-center justify-center flex-col text-white">
-        <h1 className="font-semibold">RR vs KKR</h1>
+      <div className="relative bg-primary rounded-b-3xl flex items-center justify-start pt-6 flex-col text-white">
+        <h1 className="text-xl font-semibold">RR vs KKR</h1>
         <p className="text-sm">Starts in 1D : 18H:28M:15S</p>
-
+        <div className="absolute text-3xl left-3 top-9">
+          <Link href="/">
+            <IoIosArrowBack className="text-white" />
+          </Link>
+        </div>
         <div className="absolute w-full bottom-[-25%] flex items-center justify-center px-6">
           <div className="flex items-center justify-between bg-white dark:bg-black w-full p-3 gap-3 rounded-3xl text-sm shadow-sm relative">
             <button className="py-2 px-5 rounded-3xl bg-primary text-white">

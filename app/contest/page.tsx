@@ -1,4 +1,3 @@
-import { Grid } from "@radix-ui/themes";
 import Image from "next/image";
 
 const ProfilePage = () => {
@@ -31,10 +30,10 @@ const ProfilePage = () => {
           <p>Warning</p>
         </div>
         <div>
-          {Array.from({ length: 7 }).map((_, i) => (
+          {Array.from({ length: 6 }).map((_, i) => (
             <div
               key={i}
-              className="flex items-center justify-between p-2 py-3 border-b shadow-sm"
+              className="flex items-center justify-between p-1 text-[16px] border-b shadow-sm"
             >
               <p className="text-sm"> {i + 1} </p>
               <h3>500 Supercoins</h3>
