@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const UpcomingMatch = () => {
   return (
-    <div className="space-y-6 w-full">
+    <div className="w-full flex flex-col items-center justify-center gap-6 px-3">
       {Array.from({ length: 10 }).map((_, index) => (
-        <Link href="/matches/1" key={index}>
-          <div className="max-w-[390px] border overflow-hidden rounded-2xl">
+        <Link href="/matches/1" key={index} className="w-full">
+          <div className="w-full border overflow-hidden rounded-2xl">
             <div className="bg-gradient-to-tr flex items-center justify-between py-1 bg-secondary px-3">
               <p className="text-[12px] font-semibold">IPL - 20024 - T20</p>
               <button className="rounded-3xl text-12px text-white bg-primary px-3 py-[2px]">
