@@ -12,7 +12,7 @@ import { FaHeadset } from "react-icons/fa";
 
 const ProfilePage = () => {
   return (
-    <Grid rows="120px 1fr 65px" className="h-dvh bg-secondary">
+    <Grid rows="100px 1fr 65px" className="h-dvh bg-secondary">
       <div className="relative bg-primary rounded-b-3xl">
         <div className="absolute w-full bottom-[-50%] flex items-center justify-center px-6">
           <div className="flex items-center bg-white w-full p-3 gap-3 rounded-3xl shadow-sm">
@@ -29,8 +29,8 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
-      <div className="overflow-auto pb-2 px-6 pt-[100px]">
-        <div className="space-y-3">
+      <div className="overflow-auto pb-2 px-6 pt-[65px]">
+        <div className="space-y-2">
           <div className="flex items-center justify-between p-2 rounded-2xl bg-white shadow-sm">
             <div className="flex items-center gap-3">
               <div className="flex items-center justify-center w-10 h-10 bg-red-100 rounded-md text-xl">
