@@ -9,7 +9,7 @@ const ProfilePage = () => {
         <h1 className="font-semibold">RR vs KKR</h1>
         <p className="text-sm">Starts in 1D : 18H:28M:15S</p>
 
-        <div className="absolute w-full bottom-[-25%] flex items-center justify-center px-6">
+        <div className="absolute w-full bottom-[-25%] flex items-center justify-center px-3">
           <div className="flex items-center justify-between bg-white dark:bg-black w-full p-3 gap-3 rounded-3xl text-sm shadow-sm relative">
             <button className="py-2 text-sm px-3 rounded-3xl bg-primary text-white">
               Contest
