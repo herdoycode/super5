@@ -27,7 +27,7 @@ const ProfilePage = () => {
         </div>
       </div>
       <div className="overflow-auto pb-2 px-6 pt-[50px]">
-        <div className="bg-white dark:bg-black p-5">
+        <div className="bg-white dark:bg-black p-5 rounded-2xl">
           <div className="w-full flex items-center py-5">
             <div className="flex-1">
               <h1 className="text-xl font-semibold">Win iPhone 15</h1>
