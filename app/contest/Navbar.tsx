@@ -18,8 +18,8 @@ const Navbar = () => {
           <button
             className={
               link.path === currentPath
-                ? "py-1 text-[13px] px-2 rounded-3xl bg-primary text-white"
-                : "py-1 text-[13px] px-2 rounded-3xl bg-orange-300 text-white"
+                ? "py-1 text-[14px] px-2 rounded-3xl bg-primary text-white"
+                : "py-1 text-[14px] px-2 rounded-3xl bg-orange-300 text-white"
             }
           >
             {link.label}
