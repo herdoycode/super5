@@ -33,7 +33,7 @@ const TopSlider = () => {
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
-              <div className="w-full border rounded-3xl h-[120px] bg-blue-100">
+              <div className="w-full border rounded-3xl h-[120px] bg-blue-100 dark:bg-gray-800">
                 <Grid columns="2fr 3fr">
                   <div className="flex items-center justify-center">
                     <Image

@@ -31,7 +31,7 @@ const UpcomingMatch = () => {
               <Image src="/pan.png" width={40} height={40} alt="raj" />
             </div>
           </div>
-          <div className="p-1 bg-orange-100 text-center border-t">
+          <div className="p-1 bg-orange-100 dark:bg-gray-800 text-center border-t">
             <p className="text-[13px] font-semibold">WIN iPhone FREE</p>
           </div>
         </div>
