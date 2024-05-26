@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const UpcomingMatch = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-6 px-3">
+    <div className="w-full flex flex-col items-center justify-center gap-6">
       {Array.from({ length: 10 }).map((_, index) => (
         <Link href="/matches/1" key={index} className="w-full">
           <div className="w-full border overflow-hidden rounded-2xl">
