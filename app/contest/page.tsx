@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ProfilePage = () => {
   return (
-    <Grid rows="120px 1fr 65px" className="h-dvh bg-secondary">
+    <Grid rows="120px 1fr" className="h-dvh bg-secondary">
       <div className="relative bg-primary rounded-b-3xl flex items-center justify-center flex-col text-white">
         <h1 className="font-semibold">RR vs KKR</h1>
         <p className="text-sm">Starts in 1D : 18H:28M:15S</p>
@@ -66,7 +66,6 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </Grid>
   );
 };
