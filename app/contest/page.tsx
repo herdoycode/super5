@@ -11,16 +11,16 @@ const ProfilePage = () => {
 
         <div className="absolute w-full bottom-[-25%] flex items-center justify-center px-3">
           <div className="flex items-center justify-between bg-white dark:bg-black w-full p-3 gap-3 rounded-3xl text-sm shadow-sm relative">
-            <button className="py-2 text-[10px] px-4 rounded-3xl bg-primary text-white">
+            <button className="py-1 text-[12px] px-2 rounded-3xl bg-primary text-white">
               Contest
             </button>
-            <button className="py-2 text-[10px] px-4 rounded-3xl bg-orange-300 text-white">
+            <button className="py-1 text-[12px] px-2 rounded-3xl bg-orange-300 text-white">
               My Picks
             </button>
-            <button className="py-2 text-[10px] px-4 rounded-3xl bg-orange-300 text-white">
+            <button className="py-1 text-[12px] px-2 rounded-3xl bg-orange-300 text-white">
               Leaderboard
             </button>
-            <button className="py-2 text-[10px] px-4 rounded-3xl bg-orange-300 text-white">
+            <button className="py-1 text-[12px] px-4 rounded-3xl bg-orange-300 text-white">
               Rules
             </button>
           </div>
