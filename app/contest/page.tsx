@@ -1,8 +1,6 @@
 import Footer from "@/components/Footer";
-import { Button, Grid } from "@radix-ui/themes";
+import { Grid } from "@radix-ui/themes";
 import Image from "next/image";
-import { BiErrorCircle } from "react-icons/bi";
-import { MdSportsHandball } from "react-icons/md";
 
 const ProfilePage = () => {
   return (
