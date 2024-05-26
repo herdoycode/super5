@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import { Grid } from "@radix-ui/themes";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const TopSlider = () => {
   const [api, setApi] = React.useState<CarouselApi>();
@@ -33,29 +33,31 @@ const TopSlider = () => {
         <CarouselContent>
           {Array.from({ length: 3 }).map((_, index) => (
             <CarouselItem key={index}>
-              <div className="w-full border rounded-3xl h-[120px] bg-blue-100 dark:bg-gray-800">
-                <Grid columns="2fr 3fr">
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src="/phone.png"
-                      width={80}
-                      height={80}
-                      alt="iphone"
-                    />
-                  </div>
-                  <div className="pr-5 space-y-1">
-                    <h2 className="text-[20px] text-primary">
-                      Win IPhone Free
-                    </h2>
-                    <p className="text-[14px] font-semibold">
-                      Join our Free contest & Predict 5 questions
-                    </p>
-                    <button className="text-[11px] w-full bg-primary p-1 rounded-md text-white">
-                      LEARN HOW TO PLAY
-                    </button>
-                  </div>
-                </Grid>
-              </div>
+              <Link href="/contest">
+                <div className="w-full border rounded-3xl h-[120px] bg-blue-100 dark:bg-gray-800">
+                  <Grid columns="2fr 3fr">
+                    <div className="flex items-center justify-center">
+                      <Image
+                        src="/phone.png"
+                        width={80}
+                        height={80}
+                        alt="iphone"
+                      />
+                    </div>
+                    <div className="pr-5 space-y-1">
+                      <h2 className="text-[20px] text-primary">
+                        Win IPhone Free
+                      </h2>
+                      <p className="text-[14px] font-semibold">
+                        Join our Free contest & Predict 5 questions
+                      </p>
+                      <button className="text-[11px] w-full bg-primary p-1 rounded-md text-white">
+                        LEARN HOW TO PLAY
+                      </button>
+                    </div>
+                  </Grid>
+                </div>
+              </Link>
             </CarouselItem>
           ))}
         </CarouselContent>
