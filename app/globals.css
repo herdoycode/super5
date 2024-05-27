@@ -61,3 +61,8 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.home-bg {
+  background: url("../public/bghome.png") no-repeat center center;
+  background-size: cover;
+}
