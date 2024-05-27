@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 const Refer = () => {
   return (
     <Grid rows="470px 1fr 65px" className="h-dvh">
-      <div className="bg-gradient-to-b from-primary px-4 pt-4 text-center flex items-center justify-center flex-col gap-2 text-white">
+      <div className="bg-refer px-4 pt-4 text-center flex items-center justify-center flex-col gap-2 text-white">
         <h1 className="text-xl font-bold">Refer your friends and Earn</h1>
         <div className="flex items-center justify-center w-full">
           <Image width={120} height={100} src="/gift.png" alt="gift" />

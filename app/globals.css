@@ -66,3 +66,7 @@
   background: url("../public/bghome.png") no-repeat center center;
   background-size: cover;
 }
+.bg-refer {
+  background: url("../public/bgrefer.png") no-repeat center center;
+  background-size: cover;
+}
