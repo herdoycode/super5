@@ -9,7 +9,7 @@ import UpcomingMatch from "./UpcomingMatch";
 
 const Home = () => {
   return (
-    <Grid rows="130px 1fr 65px" className="h-dvh">
+    <Grid rows="113px 1fr 65px" className="h-dvh">
       <div className="home-bg flex bg-transparent items-center justify-between px-4 pb-2">
         <Image src="/logo.png" width={120} height={60} alt="logo" />
         <div className="flex border dark:border-white items-center justify-between gap-1 rounded-3xl text-xl text-white py-1 px-2">
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </div>
       <div className="overflow-scroll pb-2">
-        <div className="w-full flex items-center justify-center pt-2">
+        <div className="w-full flex items-center justify-center pt-4">
           <TopSlider />
         </div>
         {/* <div className="px-4">

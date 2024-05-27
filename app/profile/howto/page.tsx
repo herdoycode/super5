@@ -14,7 +14,7 @@ const HowTo = () => {
         </div>
       </div>
       <div className="p-3 overflow-auto">
-        <div className="p-6 shadow-lg rounded-3xl border bg-white">
+        <div className="p-6 shadow-lg rounded-3xl border bg-white dark:bg-black">
           <h1 className="text-xl font-semibold mb-3">What is Super5</h1>
           <p className="text-sm">
             dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -23,19 +23,19 @@ const HowTo = () => {
         </div>
 
         <div className="flex items-center justify-between mt-7">
-          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white">
+          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white dark:bg-black">
             1
           </div>
           <div className="border-2 border-dashed border-primary flex-1"></div>
-          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white">
+          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white dark:bg-black">
             2
           </div>
           <div className="border-2 border-dashed border-primary flex-1"></div>
-          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white">
+          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white dark:bg-black">
             3
           </div>
           <div className="border-2 border-dashed border-primary flex-1"></div>
-          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white">
+          <div className="w-12 h-12 flex items-center justify-center font-semibold rounded-full shadow-md bg-white dark:bg-black">
             4
           </div>
         </div>
