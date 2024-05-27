@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import MyMatches from "./MyMatches";
 import UpcomingMatch from "./UpcomingMatch";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Home = () => {
   return (

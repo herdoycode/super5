@@ -10,6 +10,7 @@ import { HiClipboardDocumentList } from "react-icons/hi2";
 import { BiTransfer } from "react-icons/bi";
 import { FaHeadset } from "react-icons/fa";
 import ThemeToggler from "@/components/ThemeToggler";
+import Link from "next/link";
 
 const ProfilePage = () => {
   return (
@@ -65,16 +66,18 @@ const ProfilePage = () => {
 
             <IoIosArrowForward className="text-xl" />
           </div>
-          <div className="flex items-center justify-between p-2 rounded-2xl bg-white dark:bg-black shadow-sm">
-            <div className="flex items-center gap-3">
-              <div className="flex items-center justify-center w-10 h-10 bg-red-100 dark:text-black rounded-md text-xl">
-                <IoPlay />
+          <Link href="/profile/howto">
+            <div className="flex items-center justify-between p-2 rounded-2xl bg-white dark:bg-black shadow-sm">
+              <div className="flex items-center gap-3">
+                <div className="flex items-center justify-center w-10 h-10 bg-red-100 dark:text-black rounded-md text-xl">
+                  <IoPlay />
+                </div>
+                <p className="text-sm">How to Play</p>
               </div>
-              <p className="text-sm">How to Play</p>
-            </div>
 
-            <IoIosArrowForward className="text-xl" />
-          </div>
+              <IoIosArrowForward className="text-xl" />
+            </div>
+          </Link>
           <div className="flex items-center justify-between p-2 rounded-2xl bg-white dark:bg-black shadow-sm">
             <div className="flex items-center gap-3">
               <div className="flex items-center justify-center w-10 h-10 bg-red-100 dark:text-black rounded-md text-xl">
