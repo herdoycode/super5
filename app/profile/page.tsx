@@ -66,7 +66,7 @@ const ProfilePage = () => {
 
             <IoIosArrowForward className="text-xl" />
           </div>
-          <Link href="/profile/howto">
+          <Link href="/profile/howto" className="mt-2">
             <div className="flex items-center justify-between p-2 rounded-2xl bg-white dark:bg-black shadow-sm">
               <div className="flex items-center gap-3">
                 <div className="flex items-center justify-center w-10 h-10 bg-red-100 dark:text-black rounded-md text-xl">
