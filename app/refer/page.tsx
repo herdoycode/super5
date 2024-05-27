@@ -44,7 +44,7 @@ const Refer = () => {
         <p>Share your Referral code via</p>
       </div>
       <div className="overflow-auto pb-2 py-4 px-3">
-        <div className="bg-white p-4 text-sm border rounded-3xl">
+        <div className="bg-white dark:bg-black p-4 text-sm border rounded-3xl">
           <p className="text-center font-semibold">
             Were you referred by your friend?
           </p>
