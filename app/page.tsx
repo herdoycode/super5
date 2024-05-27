@@ -21,7 +21,7 @@ const Home = () => {
         <div className="w-full flex items-center justify-center pt-2">
           <TopSlider />
         </div>
-        <div className="px-4">
+        {/* <div className="px-4">
           <div className="flex items-center justify-between">
             <h3 className="font-semibold text-[15p]">My Matches</h3>
             <Link href="/" className="underline text-primary">
@@ -31,7 +31,7 @@ const Home = () => {
           <div className="w-full flex items-center justify-center py-1">
             <MyMatches />
           </div>
-        </div>
+        </div> */}
         <div className="px-4">
           <h3 className="font-semibold text-[15p]">Upcoming Matches</h3>
           <div className="w-full flex items-center justify-center py-1">

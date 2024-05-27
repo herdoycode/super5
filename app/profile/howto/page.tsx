@@ -18,7 +18,7 @@ const HowTo = () => {
           <h1 className="text-xl font-semibold mb-3">What is Super5</h1>
           <p className="text-sm">
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard
+            been the industry&apos;s standard
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const HowTo = () => {
         <div className="px-6 py-2">
           <p className="text-sm">
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard.
+            been the industry&apos;s standard.
           </p>
           <div className="flex items-center justify-center w-full py-5">
             <Image width={200} height={200} src="/howto.jpg" alt="howto" />
