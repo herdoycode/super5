@@ -4,7 +4,7 @@ const SignupPage = () => {
   return (
     <div className="h-dvh flex items-center justify-center bg-secondary px-4 flex-col auth-page">
       <div className="px-4 py-6 bg-white dark:bg-black w-full shadow-xl rounded-3xl">
-        <h2 className="text-xl font-semibold text-center pt-2 pb-6">
+        <h2 className="text-xl font-semibold text-center pt-2 pb-5">
           Signup for Super5
         </h2>
         <SignupForm />
