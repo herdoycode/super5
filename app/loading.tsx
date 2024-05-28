@@ -34,7 +34,10 @@ const HomeLoading = () => {
             <div className="w-full flex items-center justify-center py-1">
               <div className="w-full flex flex-col items-center justify-center gap-6">
                 {Array.from({ length: 10 }).map((_, index) => (
-                  <div className="w-full border overflow-hidden rounded-2xl">
+                  <div
+                    key={index}
+                    className="w-full border overflow-hidden rounded-2xl"
+                  >
                     <div className="bg-gradient-to-tr flex items-center justify-between py-1 bg-secondary px-3">
                       <Skeleton className="w-36 h-4" />
                       <Skeleton className="w-12 h-5" />
