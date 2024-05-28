@@ -75,7 +75,10 @@ const SignupForm = () => {
               id="refer"
               placeholder="Example label"
             />
-            <FaRegTrashCan className="ms-[-20px] cursor-pointer" />
+            <FaRegTrashCan
+              onClick={() => setRefered(false)}
+              className="ms-[-20px] cursor-pointer"
+            />
           </div>
           <label
             htmlFor="refer"
