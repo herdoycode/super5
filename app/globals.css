@@ -63,6 +63,7 @@
 }
 
 .home-bg {
+  height: 100px;
   background: url("../public/bghome.png") no-repeat center center;
   background-size: cover;
 }

@@ -4,8 +4,8 @@ import Link from "next/link";
 import { IoIosArrowBack } from "react-icons/io";
 const HowTo = () => {
   return (
-    <Grid rows="100px 2fr" className="h-dvh">
-      <div className="bg-primary px-3 flex items-center text-white justify-center relative">
+    <Grid rows="110px 2fr" className="h-dvh">
+      <div className="bg-primary home-bg px-3 flex items-center text-white justify-center relative">
         <h1 className="text-xl font-semibold">How to Play</h1>
         <div className="absolute text-3xl left-3 top-9">
           <Link href="/profile">
