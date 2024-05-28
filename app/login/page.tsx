@@ -1,7 +1,8 @@
 "use client";
 import { useLoginStore } from "@/store";
-import MobileLogin from "./MobileLogin";
+import Link from "next/link";
 import EmailLogin from "./EmailLogin";
+import MobileLogin from "./MobileLogin";
 
 const LoginPage = () => {
   const loginStatus = useLoginStore((s) => s.status);
@@ -20,7 +21,10 @@ const LoginPage = () => {
         </p>
       </div>
       <p className="pt-10 font-semibold">
-        New User? <span className="text-primary">Create your account</span>{" "}
+        New User?{" "}
+        <Link href="/signup" className="text-primary">
+          Create your account
+        </Link>{" "}
       </p>
     </div>
   );

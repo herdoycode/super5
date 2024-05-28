@@ -51,7 +51,7 @@ const MobileLogin = () => {
         }}
         className="w-full mt-6"
       >
-        Send OTP
+        {isSubmited ? "Continue" : "Send OTP"}
       </Button>
     </form>
   );
