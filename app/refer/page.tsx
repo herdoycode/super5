@@ -1,6 +1,4 @@
 import Footer from "@/components/Footer";
-import { Grid } from "@radix-ui/themes";
-import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
@@ -8,11 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { FaWhatsapp } from "react-icons/fa6";
+import { IoShareSocialOutline } from "react-icons/io5";
 
 const Refer = () => {
   return (
-    <Grid rows="470px 1fr 65px" className="h-dvh">
-      <div className="bg-refer px-4 pt-4 text-center flex items-center justify-center flex-col gap-2 text-white">
+    <div className="pb-16">
+      <div className="bg-refer px-4 pb-7 pt-4 text-center flex items-center justify-center flex-col gap-2 text-white">
         <h1 className="text-xl font-bold">Refer your friends and Earn</h1>
         <div className="flex items-center justify-center w-full">
           <Image width={120} height={100} src="/gift.png" alt="gift" />
@@ -78,14 +79,19 @@ const Refer = () => {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
-      <Footer />
-    </Grid>
+      <div className="fixed bottom-0 w-full">
+        <Footer />
+      </div>
+    </div>
   );
 };
 
 export default Refer;
-
-import { FaWhatsapp } from "react-icons/fa6";
-import { IoShareSocialOutline } from "react-icons/io5";

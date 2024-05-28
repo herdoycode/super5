@@ -1,10 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import TopSlider from "./TopSlider";
-import { Grid } from "@radix-ui/themes";
 import Footer from "@/components/Footer";
-import Link from "next/link";
-import MyMatches from "./MyMatches";
+import Image from "next/image";
+import TopSlider from "./TopSlider";
 import UpcomingMatch from "./UpcomingMatch";
 
 const Home = () => {

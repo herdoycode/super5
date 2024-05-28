@@ -1,21 +1,20 @@
 import Footer from "@/components/Footer";
-import { Avatar, Grid } from "@radix-ui/themes";
+import ThemeToggler from "@/components/ThemeToggler";
+import { Avatar } from "@radix-ui/themes";
 import Image from "next/image";
-import { FaGear } from "react-icons/fa6";
+import Link from "next/link";
+import { BiTransfer } from "react-icons/bi";
+import { BsWechat } from "react-icons/bs";
+import { FaHeadset } from "react-icons/fa";
+import { FaFileShield, FaGear } from "react-icons/fa6";
+import { HiClipboardDocumentList } from "react-icons/hi2";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoPlay } from "react-icons/io5";
-import { BsWechat } from "react-icons/bs";
-import { FaFileShield } from "react-icons/fa6";
-import { HiClipboardDocumentList } from "react-icons/hi2";
-import { BiTransfer } from "react-icons/bi";
-import { FaHeadset } from "react-icons/fa";
-import ThemeToggler from "@/components/ThemeToggler";
-import Link from "next/link";
 
 const ProfilePage = () => {
   return (
-    <Grid rows="100px 1fr 65px" className="h-dvh bg-secondary">
-      <div className="relative bg-primary rounded-b-3xl">
+    <div className="pb-16">
+      <div className="relative bg-primary rounded-b-3xl h-[110px]">
         <div className="absolute w-full bottom-[-50%] flex items-center justify-center px-6">
           <div className="flex items-center bg-white dark:bg-black w-full p-3 gap-3 rounded-3xl shadow-sm relative">
             <Avatar radius="full" src="/profile.jpg" size="7" fallback="U" />
@@ -109,8 +108,10 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </Grid>
+      <div className="fixed bottom-0 w-full">
+        <Footer />
+      </div>
+    </div>
   );
 };
 
