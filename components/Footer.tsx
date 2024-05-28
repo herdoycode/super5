@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const Footer = () => {
   const currentPath = usePathname();
   return (
-    <div className="flex w-full items-center justify-around rounded-t-2xl border">
+    <div className="flex w-full items-center justify-around rounded-t-2xl border bg-secondary py-2">
       {navItems.map((item) => (
         <Link
           key={item.id}
