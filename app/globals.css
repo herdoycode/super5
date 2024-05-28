@@ -71,3 +71,8 @@
   background: url("../public/bgrefer.png") no-repeat center center;
   background-size: cover;
 }
+
+.auth-page {
+  background: url("../public/authpage.png") no-repeat;
+  background-size: contain;
+}
