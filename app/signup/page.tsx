@@ -7,7 +7,7 @@ const SignupPage = () => {
       <div className="flex items-center justify-center absolute top-6">
         <Image src="/logo.png" width={200} height={60} alt="logo" />
       </div>
-      <div className="mb-[250px]"></div>
+      <div className="mb-[220px]"></div>
       <div className="px-4 py-6 bg-white dark:bg-black w-full shadow-xl rounded-3xl">
         <h2 className="text-xl font-semibold text-center pt-2 pb-5">
           Signup for Super5
